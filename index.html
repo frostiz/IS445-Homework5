@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS 445 HOMEWORK 5</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Midterm Exam</h1>
+        <p>Find all prime numbers between two numbers</p>
+    </div>
+
+    <div class="input-container">
+        <div class="input-group">
+            <label for="input-1">Number 1:</label>
+            <input type="text" id="input-1" name="input-1" />
+        </div>
+        <div class="input-group">
+            <label for="input-2">Number 2:</label>
+            <input type="text" id="input-2" name="input-2" />
+        </div>
+    </div>
+    <button type="button" id="submit">Submit</button>
+    <p id="error" style="display: none;">Invalid input, please try again</p>
+    <div id="result" style="display: none;">
+        <h2 id="prime-length-container">There are <span id="prime-length">0</span> prime numbers.</h2>
+        <p id="prime-number-list"></p>
+    </div>
+    <script type="application/javascript" src="./script.js"></script>
+</body>
+</html>
